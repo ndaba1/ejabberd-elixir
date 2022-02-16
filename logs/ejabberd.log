@@ -1,0 +1,73 @@
+2022-02-16 20:12:40.154937+03:00 [info] <0.534.0>@ejabberd_config:load/1:82 Loading configuration from config/ejabberd.yml
+2022-02-16 20:12:49.402078+03:00 [info] <0.534.0>@ejabberd_config:load/1:89 Configuration loaded successfully
+2022-02-16 20:12:59.524644+03:00 [info] <0.741.0>@ejabberd_systemd:init/1:103 Got no NOTIFY_SOCKET, notifications disabled
+2022-02-16 20:13:01.014884+03:00 [info] <0.744.0>@translate:load/2:127 Building language translation cache
+2022-02-16 20:13:02.300363+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'ejabberd_commands'
+2022-02-16 20:13:05.064791+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'route'
+2022-02-16 20:13:05.192383+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'route_multicast'
+2022-02-16 20:13:05.447169+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'session'
+2022-02-16 20:13:05.470564+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'session_counter'
+2022-02-16 20:13:05.638851+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 's2s'
+2022-02-16 20:13:05.664681+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'temporarily_blocked'
+2022-02-16 20:13:05.764049+03:00 [info] <0.740.0>@gen_mod:start_modules/0:130 Loading modules for localhost
+2022-02-16 20:13:05.764408+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'mod_register_ip'
+2022-02-16 20:13:05.787700+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc table 'sr_group'
+2022-02-16 20:13:05.814630+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc table 'sr_user'
+2022-02-16 20:13:05.923993+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'privacy'
+2022-02-16 20:13:06.130754+03:00 [warning] <0.740.0>@mod_mam:start/2:99 Mnesia backend for mod_mam is not recommended: it's limited to 2GB and often gets corrupted when reaching this limit. SQL backend is recommended. Namely, for small servers SQLite is a preferred choice because it's very easy to configure.
+2022-02-16 20:13:06.131398+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'archive_msg'
+2022-02-16 20:13:06.169532+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'archive_prefs'
+2022-02-16 20:13:06.448176+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc table 'muc_room'
+2022-02-16 20:13:06.483055+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc table 'muc_registered'
+2022-02-16 20:13:06.519523+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'muc_online_room'
+2022-02-16 20:13:06.610678+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'vcard'
+2022-02-16 20:13:06.643305+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc table 'vcard_search'
+2022-02-16 20:13:06.762844+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'motd'
+2022-02-16 20:13:06.792687+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'motd_users'
+2022-02-16 20:13:06.982218+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'bosh'
+2022-02-16 20:13:07.005103+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'push_session'
+2022-02-16 20:13:07.209599+03:00 [info] <0.989.0>@mod_stun_disco:parse_listener/1:616 Going to offer STUN/TURN service: [fe80::fdde:4d4:91fe:4463]:3478 (udp)
+2022-02-16 20:13:07.210183+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'roster'
+2022-02-16 20:13:07.645441+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'roster_version'
+2022-02-16 20:13:08.013293+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'last_activity'
+2022-02-16 20:13:08.148060+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'offline_msg'
+2022-02-16 20:13:08.473371+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'caps_features'
+2022-02-16 20:13:08.505010+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'pubsub_last_item'
+2022-02-16 20:13:08.598058+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc table 'pubsub_index'
+2022-02-16 20:13:08.713521+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc table 'pubsub_node'
+2022-02-16 20:13:08.744526+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc table 'pubsub_state'
+2022-02-16 20:13:08.777945+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'pubsub_item'
+2022-02-16 20:13:08.892777+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc table 'pubsub_orphan'
+2022-02-16 20:13:08.927209+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'private_storage'
+2022-02-16 20:13:09.044773+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'mqtt_pub'
+2022-02-16 20:13:09.255220+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'mqtt_session'
+2022-02-16 20:13:09.284759+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'mqtt_sub'
+2022-02-16 20:13:09.421737+03:00 [info] <0.1087.0>@mod_mqtt:init_topic_cache/2:641 Building MQTT cache for localhost, this may take a while
+2022-02-16 20:13:09.949163+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'bytestream'
+2022-02-16 20:13:10.052162+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'passwd'
+2022-02-16 20:13:10.084295+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia ram table 'reg_users_counter'
+2022-02-16 20:13:10.214695+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc_only table 'oauth_token'
+2022-02-16 20:13:10.247489+03:00 [info] <0.694.0>@ejabberd_mnesia:create/2:267 Creating Mnesia disc table 'oauth_client'
+2022-02-16 20:13:11.449972+03:00 [info] <0.534.0>@ejabberd_cluster_mnesia:wait_for_sync/1:123 Waiting for Mnesia synchronization to complete
+2022-02-16 20:13:13.278573+03:00 [warning] <0.825.0>@ejabberd_pkix:check_domain_certfiles/1:312 No certificate found matching localhost
+2022-02-16 20:13:13.279039+03:00 [warning] <0.825.0>@ejabberd_pkix:check_domain_certfiles/1:312 No certificate found matching conference.localhost
+2022-02-16 20:13:13.279551+03:00 [warning] <0.825.0>@ejabberd_pkix:check_domain_certfiles/1:312 No certificate found matching upload.localhost
+2022-02-16 20:13:13.279902+03:00 [warning] <0.825.0>@ejabberd_pkix:check_domain_certfiles/1:312 No certificate found matching proxy.localhost
+2022-02-16 20:13:13.280213+03:00 [warning] <0.825.0>@ejabberd_pkix:check_domain_certfiles/1:312 No certificate found matching pubsub.localhost
+2022-02-16 20:13:13.280510+03:00 [info] <0.534.0>@ejabberd_app:start/2:63 ejabberd 21.12.0 is started in the node nonode@nohost in 41.47s
+2022-02-16 20:13:13.301730+03:00 [info] <0.823.0>@ejabberd_listener:init/4:127 Start accepting UDP connections at [::]:3478 for ejabberd_stun
+2022-02-16 20:13:13.301905+03:00 [info] <0.824.0>@ejabberd_listener:init/4:160 Start accepting TCP connections at [::]:1883 for mod_mqtt
+2022-02-16 20:13:13.302358+03:00 [info] <0.818.0>@ejabberd_listener:init/4:160 Start accepting TCP connections at [::]:5222 for ejabberd_c2s
+2022-02-16 20:13:13.302375+03:00 [info] <0.819.0>@ejabberd_listener:init/4:160 Start accepting TLS connections at [::]:5223 for ejabberd_c2s
+2022-02-16 20:13:13.302803+03:00 [info] <0.821.0>@ejabberd_listener:init/4:160 Start accepting TLS connections at [::]:5443 for ejabberd_http
+2022-02-16 20:13:13.302801+03:00 [info] <0.820.0>@ejabberd_listener:init/4:160 Start accepting TCP connections at [::]:5269 for ejabberd_s2s_in
+2022-02-16 20:13:13.303132+03:00 [info] <0.822.0>@ejabberd_listener:init/4:160 Start accepting TCP connections at [::]:5280 for ejabberd_http
+2022-02-16 20:13:13.303153+03:00 [info] <0.1105.0>@ejabberd_listener:init/4:160 Start accepting TCP connections at 127.0.1.1:7777 for mod_proxy65_stream
+2022-02-16 20:13:13.304195+03:00 [warning] <0.823.0>@ejabberd_stun:prepare_turn_opts/2:115 Option 'turn_ipv4_address' is undefined and the server's hostname doesn't resolve to a public IPv4 address, most likely the TURN relay won't be working properly
+2022-02-16 20:13:49.498827+03:00 [info] <0.822.0>@ejabberd_listener:accept/7:273 (<0.1232.0>) Accepted connection [::1]:49822 -> [::1]:5280
+2022-02-16 20:13:49.504431+03:00 [info] <0.822.0>@ejabberd_listener:accept/7:273 (<0.1233.0>) Accepted connection [::1]:49824 -> [::1]:5280
+2022-02-16 20:13:54.936574+03:00 [error] <0.1231.0>@Elixir.FileSystem.Backends.FSInotify:bootstrap/0:32 `inotify-tools` is needed to run `file_system` for your system, check https://github.com/rvoicilas/inotify-tools/wiki for more information about how to install it. If it's already installed but not be found, appoint executable file with `config.exs` or `FILESYSTEM_FSINOTIFY_EXECUTABLE_FILE` env.
+2022-02-16 20:13:54.937019+03:00 [warning] <0.1230.0>@Elixir.Phoenix.LiveReloader.Application:start_link/0:32 Could not start Phoenix live-reload because we cannot listen to the file system.
+You don't need to worry! This is an optional feature used during development to
+refresh your browser when you save files and it does not affect production.
+
