@@ -32,3 +32,7 @@ ejabberdex-*.tar
 npm-debug.log
 /assets/node_modules/
 
+
+/mnesiadb/*
+/logs
+
