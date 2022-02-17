@@ -234,6 +234,13 @@ modules:
   mod_version:
     show_os: false
 
+#auth_method: sql
+#sql_type: mysql
+#sql_server: “localhost″ (Mysql Database IP)
+#sql_database: “chat” (Database name)
+#sql_username: “root” (Database user name)
+#sql_password: “password” (Database password)
+
 ### Local Variables:
 ### mode: yaml
 ### End:
