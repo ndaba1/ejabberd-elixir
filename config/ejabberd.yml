@@ -24,6 +24,15 @@ loglevel: info
 #  - /etc/letsencrypt/live/domain.tld/fullchain.pem
 #  - /etc/letsencrypt/live/domain.tld/privkey.pem
 
+auth_method: sql
+sql_type: mysql
+sql_server: "localhost"
+sql_database: "CHAT"
+sql_username: "ejabberd"
+sql_password: "ejabberd"
+
+default_db: "sql"
+
 listen:
   -
     port: 5222
@@ -32,7 +41,7 @@ listen:
     max_stanza_size: 262144
     shaper: c2s_shaper
     access: c2s
-    starttls_required: true
+    # starttls_required: true
   -
     port: 5223
     ip: "::"
@@ -41,7 +50,7 @@ listen:
     max_stanza_size: 262144
     shaper: c2s_shaper
     access: c2s
-    starttls_required: true
+    # starttls_required: true
   -
     port: 5269
     ip: "::"
@@ -180,7 +189,7 @@ modules:
     ## Mnesia is limited to 2GB, better to use an SQL backend
     ## For small servers SQLite is a good fit and is very easy
     ## to configure. Uncomment this when you have SQL configured:
-    ## db_type: sql
+    db_type: sql
     assume_mam_usage: true
     default: always
   mod_mqtt: {}
@@ -233,13 +242,6 @@ modules:
   mod_vcard_xupdate: {}
   mod_version:
     show_os: false
-
-#auth_method: sql
-#sql_type: mysql
-#sql_server: “localhost″ (Mysql Database IP)
-#sql_database: “chat” (Database name)
-#sql_username: “root” (Database user name)
-#sql_password: “password” (Database password)
 
 ### Local Variables:
 ### mode: yaml
