@@ -33,6 +33,5 @@ npm-debug.log
 /assets/node_modules/
 
 
-/mnesiadb/*
+/mnesiadb
 /logs
-

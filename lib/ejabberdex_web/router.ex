@@ -21,9 +21,13 @@ defmodule EjabberdexWeb.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", EjabberdexWeb do
-  #   pipe_through :api
-  # end
+  scope "/", EjabberdexWeb do
+    pipe_through :api
+
+
+    get "/register", ApiController, :index
+    post "/register", ApiController, :handle
+  end
 
   # Enables LiveDashboard only for development
   #
